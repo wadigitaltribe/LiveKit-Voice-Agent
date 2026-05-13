@@ -22,7 +22,7 @@ async def entrypoint(ctx: JobContext):
         ),     
         
         tts=elevenlabs.TTS(                           
-            voice_id="ZQAISeGMtjo0Hfr3SGiD",
+            voice_id="HHJcozd8AgLT2VmACyDV",
             api_key=os.getenv("ELEVEN_API_KEY"),      
             model="eleven_multilingual_v2"            
         ),
